@@ -8,7 +8,6 @@ import numpy as np
 import scipy.spatial.distance as ds
 from bilm import Batcher, BidirectionalLanguageModel, weight_layers
 from random import randrange
-from gensim.models import FastText
 import json
 from sklearn.preprocessing import normalize
 from gensim.models import Word2Vec
@@ -315,17 +314,3 @@ class embeddingModel:
 			word_vec_map[wrd] = avg_vec(word_vec_map[wrd])
 
 		return word_vec_map	
-
-
-test_sent = "will this computer network work"
-# Testing ELMO Code
-elmoM = embeddingModel()
-elmoM.load_ELMO_model()
-temp = elmoM.get_embed_ELMO_sent(test_sent) 
-print(len(temp))
-
-# Test CBOW Code
-cbowM = embeddingModel()
-cbowM.load_CBOW_model()
-temp = cbowM.get_embed_CBOW_sent(test_sent)
-print(len(temp))

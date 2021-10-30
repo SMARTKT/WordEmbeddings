@@ -1,0 +1,6 @@
+gensim==3.6.0
+nltk
+tensorflow==1.15.0
+numpy
+bilm
+scikit-learn
