@@ -60,6 +60,15 @@ eM = embeddingModel()
 eM.load_CBOW_model()
 ```
 
+Note : a compressed version of CBOW which requires only `corpus_book.bin` can also be used instead.
+
+For loading it, use
+```
+eM = embeddingModel()
+eM.load_CBOW_compressed_model()
+```
+The remaining functions i.e. functions to get word vector, sentence vector etc are same as the functions for the CBOW model.
+
 #### For ELMO
 ```
 eM = embeddingModel()
