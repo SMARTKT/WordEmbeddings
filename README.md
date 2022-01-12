@@ -1,13 +1,13 @@
 # WordEmbeddings
 
-mega.nz link : https://tinyurl.com/SWVECembeddings
+googledrive link : https://tinyurl.com/SWVECembeddings
 
 
 
 # Instructions
 
 ## To download the embeddings :
-1. Go to the mega.nz link above and download all of the files in the folder.
+1. Go to the google drive link above and download all of the files in the folder.
 2. Place the embeddingClass.py file of the repository in the same path where the embedding files were downloaded.
 
 
