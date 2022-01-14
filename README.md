@@ -60,7 +60,7 @@ eM = embeddingModel()
 eM.load_CBOW_model()
 ```
 
-Note : a compressed version of CBOW which requires only `corpus_book.bin` can also be used instead.
+Note : a compressed version of CBOW which requires a compressed bin file CBOW_compressed.bin
 
 For loading it, use
 ```
